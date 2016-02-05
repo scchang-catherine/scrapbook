@@ -1,0 +1,73 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+/*    overflow-x: hidden; */
+    font-family: 'Quicksand', sans-serif;
+/*    overflow: scoll;*/
+}
+
+
+#title {
+    font-size: 40px;
+    text-align: left;
+    font-weight: 500;
+    margin-left: 350px;
+    padding: 25px;
+    padding-left: 45px;
+    letter-spacing: 2px;
+    border-bottom-style: inset;
+}
+
+#imgCont {
+    width: 350px;
+    height: 150%;
+    background-color: #FFFFC8;
+    top: 0px;
+    position: absolute;
+    z-index: 100;
+    background-image: url("ourcollage.jpg");
+    background-repeat: repeat-y;
+}
+
+#shitAlbSays {
+    /* position: absolute; */
+    left: 31%;
+    text-align: left;
+    line-height: 2;
+    /* font-weight: 800; */
+    font-size: 35px;
+    padding: 20px;
+    background-color: rgba(132, 213, 245, 0.17);
+    top: 40px;
+    color: #5F5F5F;
+    width: 800px;
+    padding-bottom: 40px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+#actualShit {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#shitCatSays {
+    /* position: relative; */
+    left: 31%;
+    text-align: left;
+    line-height: 2;
+    /* font-weight: 800; */
+    font-size: 35px;
+    padding: 20px;
+    background-color: rgba(255, 0, 82, 0.17);
+    top: 40px;
+    color: #5F5F5F;
+    width: 800px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    height: 400px;
+    margin-left: 400px;
+}
